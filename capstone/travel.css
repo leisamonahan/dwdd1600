@@ -1,0 +1,260 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/*nav stuff*/
+/*small screens*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 1rem 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: .8px solid #F2E0C9;
+        background-color:#04ADBF;
+        color: white;
+        border-radius: 4px;
+    
+    }
+    nav li {
+        margin: .5rem 2vw;
+    }
+    nav li.active a {
+        color: #04ADBF;
+        background-color: white;
+        border: 1px solid #04ADBF;
+        
+    }
+}
+
+/*large screens stuff here*/
+@media only screen and (min-width: 601px) {
+
+
+nav {
+    background-color:#04ADBF;
+    
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+    padding: 0 3vw 0rem 1vw;
+    margin: 0;
+}
+nav ul li {
+    padding: 0 0vw;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: block;
+    padding: 1rem 2vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+nav a:hover {
+    color: #025959;
+    background-color: #04ADBF;
+   
+
+}
+nav li.active a {
+   background-color: white;
+   color: #025959;
+}
+header {
+    background-color: #FFCFCF;
+    background-image: linear-gradient(to bottom, #F2E0C9, #FFCFCF);
+    color:#025959;
+}
+header h1 {
+    margin:0;
+    padding: 1rem 2vw;
+    font-size: 2.5rem;
+}
+header p {
+    color: #00852E;
+    padding: 0 2vw 1rem 2vw;
+    margin: 0;
+    font-weight: 600;
+}
+}
+/*main stuff here*/
+
+main h1 {
+    
+    color:#025959;
+    margin: 0rem;
+    padding: 1rem 2vw;
+}
+main h2 {
+    color: #00852E;
+    padding: .5rem 2vw 0rem 2vw;
+}
+main h3 {
+    color:#04ADBF;
+    padding: 0rem 2vw;
+    margin-left: 1rem;
+}
+main dl {
+    padding: 0rem 2vw;
+}
+main p {
+    padding: 0rem 2vw;
+}
+main a {
+    text-decoration: none;
+    color:#025959;
+}
+main a:hover {
+    color: #04ADBF;
+}
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #025959;
+    border-top: 2px solid #025959;
+    border-radius: 2px;
+    padding: 1rem 2vw;
+    margin: 1rem 2%;
+
+}
+main {
+    padding: 1rem 3vw;
+}
+figure {
+    padding-left: 1rem;
+    margin: .5rem 2% 0 0;
+
+    
+}
+figure img:hover {
+    box-shadow: 0px 0px 11px rgba(27, 29, 30, 0.5);
+
+}
+figcaption {
+    color:#025959;
+    text-align: center;
+    font-size: .7rem;
+}
+div img {
+    height: 15rem;
+    width: auto;
+}
+.abouthero img {
+    width: 100%;
+    height: auto;
+
+}
+figure.cruise {
+    width:30%;
+    margin: 3vw 2% 0rem 2%;
+    padding-bottom: 2rem;
+    float:right;
+    
+}
+figure.cruise img {
+    height: auto;
+    width: 100%;
+
+}
+figure.castle {
+    width:30%;
+    margin: 3vw 2% 0rem 2%;
+    float:right;
+}
+figure.castle img {
+    height: auto;
+    width: 100%;
+
+}
+figure.venice {
+    width:30%;
+    margin: 3vw 2% 0rem 2%;
+    float:right;
+}
+figure.venice img {
+    height: auto;
+    width: 100%;
+   
+}
+.contact legend {
+    color: #025959;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.contact label {
+    margin: .5rem;
+}
+.contact label, .contact select, .contact [type=text], .contact [type=email], .contact [type=tel], .contact textarea {
+    display:block;
+}
+.contact select, .contact [type=text], .contact [type=email], .contact [type=tel], .contact textarea {
+   border: solid 1px #00852E; 
+   border-radius: 3px;
+   width:200px;
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 300;
+   
+}
+.contact textarea {
+    height: 9rem;
+    margin: 1rem 2vw;
+}
+.contact :required {
+    background-color: #eefaf2;
+}
+.contact fieldset {
+    border: .5px solid #025959;
+    border-radius: 4px;
+    margin: 1rem 3vw;
+
+}
+.contact [type=submit] {
+    background-color: #025959;
+    color:#eefaf2;
+    border: none;
+    padding: 1rem 2vw;
+    border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 3vw 2rem 3vw;
+}
+dl {
+    background-color: #eefaf2;
+    border: 1px solid #eefaf2;
+    border-radius: 4px;
+}
+input.submit:hover {
+    box-shadow: 0px 0px 11px rgba(27, 29, 30, 0.5);
+  
+}
+/*footer stuff here*/
+footer {
+    background-color: #04ADBF;
+    color: white;
+    text-align: center;
+    padding: .2rem 3%;
+    margin-top: 2rem;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color:#025959;
+}

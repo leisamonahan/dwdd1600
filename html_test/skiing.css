@@ -1,0 +1,206 @@
+body {
+font-family: 'Josefin Sans' , sans-serif;
+font-size: 17px;
+font-weight:300;
+margin: 0;
+}
+/* Header */
+header {
+background-color:#3d6663 ;
+color:#cfe6e4 ;
+padding:1rem 2vw ;
+text-align: center;
+font-size:1.3rem;
+}
+/*navigation*/
+nav {
+background-color:#cfe6e4 ;
+padding: .1rem .5vw ; 
+list-style-type: none; 
+text-align: center;
+}
+nav ul li{
+display:inline-flex;
+}
+
+nav ul li a {
+text-decoration: none;
+font-size: 1.5rem; 
+color:#3d6663;  
+font-weight: 700; 
+text-align: center;
+padding: .5rem 2rem;
+
+}
+nav a:hover {
+color: white;    
+}
+nav li.active a {
+background-color:#3d6663;
+color:#cfe6e4;
+padding: 20px;
+border: 1px solid #cfe6e4;
+border-radius: 9px;
+}
+/* main body */
+figure.mountain {
+    width: 30%;
+    margin: 0 1% 0 2%;
+    float: right;   
+}
+figure.mountain img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    }
+    figure.mountain figcaption {
+    text-align:center;
+    font-size:.75rem;
+    line-height: 1.5rem;
+    padding:0 0 0 0;
+    background-color:#cfe6e4;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    }
+figure.gearpage {
+float:right;
+margin: 0 1% 0 2%;
+width:30%;
+}
+figure.gearpage img {
+border-radius: 10px;
+height:auto;
+width:100%;
+}
+div.gallery {
+display:flex;
+flex-wrap:wrap;
+}
+div.gallery figure {
+    margin: 0.5rem 2% 0 3%;     
+}
+div.gallery img {
+border-radius:10px;
+}
+div.gallery figcaption {
+color:#3d6663;
+font-size:.75rem;
+text-align:center;
+background-color: #cfe6e4;
+border-radius: 3px;
+}
+main h1, main h2 {
+    padding: 0rem 0rem 0rem 2rem;
+}
+main p a {
+    text-decoration:none;
+    color:#3d6663;
+    font-weight:900;
+}
+main p a:hover{
+color:#2446d0;    
+}
+main dl {
+padding: 0rem 0rem 0rem 3rem;
+line-height:1.8rem ;
+list-style-type: disc;
+}
+main p {
+    padding: 0rem 0rem 1.3rem 3rem; 
+    line-height: 1.2rem;  
+}
+main ul {
+list-style-type:circle;
+padding: 0rem 0rem 1.3rem 3rem;
+}
+main ul li a{
+line-height:1.5rem;
+    text-decoration:none;
+    color:#3d6663;
+    display:inline-block;
+    background-color: #cfe6e4;
+    font-weight:900;
+    border: 1px solid #3d6663;
+    border-radius:7px;
+    line-height:1.4rem;
+    margin-top: 1.1rem;
+}
+main ul li a:hover {
+    color:#2446d0;
+}
+main ul.safety {
+list-style-type:square;
+}
+main address a:hover {
+color:#2446d0;
+}
+main ol li a {
+text-decoration:none;
+font-weight: 900;
+color:#3d6663;
+display:inline-block;
+padding-top:1.5rem ;
+}
+main ol li a:hover {
+color:#2446d0;
+}
+main address {
+line-height:1.2rem;
+margin-top:1rem;
+}
+main address a {
+text-decoration: none;
+color:#3d6663;
+font-weight: 900;
+}
+main address.footer{
+    padding: 0rem 0rem 1.3rem 3rem; 
+    line-height:1.5rem;
+}
+.survey fieldset {
+    border: 3px solid #3d6663;
+    border: radius 3px;
+    margin-bottom:1rem;
+    margin: 2.5rem;
+    }
+.survey label, .survey select, .survey [type=text], .survey [type=tel], .survey textarea {
+        display: block;
+        line-height: 2rem;
+        }  
+.survey fieldset legend {
+font-size: 20px; 
+font-weight: 900;
+}
+.survey :required{ 
+background-color:bisque;
+}
+.survey input:required:valid {
+background-color:#cfe6e4;
+}
+
+.survey [type=text], .survey [type=tel], .survey select, .survey textarea, .survey [type=submit], .survey [type=email] {
+border: solid 1px #3d6663;
+padding: .3rem;
+width: 250px;
+border-radius: .5rem;
+font-family: 'Josefin Sans' , sans-serif;
+font-size: 17px;
+font-weight:300;
+margin: .5rem;
+}
+.survey [type=submit]:hover{
+background-color: #3d6663;
+}
+/*footer*/
+footer p {
+text-align: center;
+margin-top: 10rem;
+}
+footer p a {
+text-decoration: none;
+color:#3d6663;
+}
+footer p a:hover {
+color:#2446d0;
+}

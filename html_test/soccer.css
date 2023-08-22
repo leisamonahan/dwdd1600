@@ -1,0 +1,139 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    }
+    /* header starts here*/
+    header {
+        background-color: #0D0D0D;
+        padding: 1rem 2%;
+        margin: 0;
+    }
+
+    header h1 {
+        color: #F2F2F2;
+        margin: 0;
+    }
+
+    header p {
+        color: #F2F2F2;
+        letter-spacing: 0.7px;
+        margin: 0;
+    }
+
+    nav {
+        background-color: #F2A444;
+    }
+
+    nav ul {
+        margin: 0;
+        display: flex;
+        padding: 0 2%;
+        list-style-type: none;
+        flex-wrap: wrap;
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #0D0D0D;
+        display: block;
+        padding: .83rem 2rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    nav ul li.current_page a {
+        background-color: #BF7960;
+    }
+
+    nav a:hover {
+        color: #F2F2F2;
+    }
+    /* main starts here*/
+    main {
+        padding: 1rem 2%;
+    }
+
+    main h1 {
+        color: #0D0D0D;
+    }
+
+    main h2 {
+        color: #BF7960;
+    }
+   
+    main p {
+        color: #0D0D0D;
+        margin: 0 0 0.3rem 0;
+    }
+
+
+    main address {
+        font-style: normal;
+        background-color: #F2A444;
+        padding: .5rem;
+        width: 14rem;
+        border: 1px solid #024873;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+    }
+
+    main a {
+        color: #0D0D0D;
+        font-size: 1rem;
+        margin: 1rem 0 
+    }
+
+    main ul {
+        list-style-type: circle;
+        background-color: #F2A444;
+        border-radius: 6px;
+        border: 1px solid #024873;
+        padding: .5rem 2%;
+    }
+
+
+    main ol li {
+        margin-bottom: 1rem;
+    }   
+
+    main ol li:first-child {
+        font-weight: 700;
+    }
+
+    main dt::before {
+        content: "* ";
+    }
+    
+    main dl {
+        padding-left: 1rem;
+    }
+    main dl dd {
+        margin-top: 0.5rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .btn {
+        color: #0D0D0D;
+        padding: 1rem 0 1rem 0;
+    }
+
+    /* footer starts here*/
+    
+    footer {
+        background-color: #0D0D0D;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        color: #F2F2F2;
+    }
+
+    footer a {
+        color: #F2A444;
+        text-decoration: none;
+    }
+
+
+    

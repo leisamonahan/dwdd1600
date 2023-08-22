@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<title>Skate Skool: Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"> 
+<meta name="description" content="Learn about the many types of roller skating">
+<meta name="author" content="Leisa Monahan">
+<link rel="stylesheet" href="skates.css">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Start of page header-->
+<header>
+<img src="images/skateicon.png" alt="logo" width="99" height="100">
+<div><h1 id="top">Skate Skool</h1>
+    <p>A Look into the World of Roller Skating</p></div>
+    
+</header>
+<!--Start of page navigation-->
+<nav>
+    <ul>
+        <li><a href="index.html">History</a></li>
+        <li><a href="recreational.html">How to Begin</a></li>
+        <li><a href="gallery.html">Image Gallery</a></li>
+        <li class="active"><a href="skateklub.html">Skate Klub</a></li>
+        <li><a href="cost.html">Cost</a></li>
+        <li><a href="contact.html">About Us</a></li>
+        
+    </ul>
+
+</nav>
+<!--Start of page content-->
+<main>
+    <h1>Skate Klub</h1>
+    <h2>Join Skate Klub</h2>
+    <form method="get" class="klubform" action="thankyou.html">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+    <label>Last Name*<input type="text" name="lname" required></label>
+    <label>Phone Number*<input type="tel" name="phone" required></label>
+    <label>Email*<input type="email" name="email" required></label>
+    </fieldset>
+    <fieldset>
+        <legend>Skill Level</legend>
+        <label>Beginner<input type="radio" name="method" value="beginner"></label>
+        <label>Intermediate<input type="radio" name="method" value="intermediate"></label>
+        <label>Advanced<input type="radio" name="method" value="advanced"></label>
+        <label>Years of Skating</label>
+        <select name="time">
+            <option value="none">Please Select</option>
+            <option value="one">0 to 1 years</option>
+            <option value="five">2 to 5 years</option>
+            <option value="nine">5 to 9 years</option>
+            <option value="plus">10 or more years</option>
+        </select>
+
+    </fieldset>
+    <fieldset>
+        <legend>Preferred Skate Style</legend>
+        <label><input type="checkbox" name="derby" value="chosen">Roller Derby</label>
+        <label><input type="checkbox" name="speed" value="chosen">Speed Skating</label>
+        <label><input type="checkbox" name="figure" value="chosen">Figure Skating</label>
+        <label><input type="checkbox" name="outdoor" value="chosen">Outdoor</label>
+        <label><input type="checkbox" name="rec" value="chosen">Recreational</label>
+        <label><input type="checkbox" name="disco" value="chosen">Roller Disco</label>
+
+    </fieldset>
+    <fieldset>
+        <label>Comments
+        <textarea name="comments"></textarea></label>
+
+    </fieldset>
+   
+
+        
+
+
+    <input type="submit" value="Send Skate Klub Request">
+    </form>
+    
+    
+</main>
+
+<!--Start of page footer-->
+<footer>
+<p>&copy; 2022 &bull; Leisa Monahan &bull; <a href="mailto:leisamonahan@gmail.com">Email Us</a></p>
+</footer>
+
+</body>
+</html>

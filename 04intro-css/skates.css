@@ -1,0 +1,163 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    color: #0a1840;
+}
+a {
+    margin: 0;
+    color: #0a1840;  
+}
+/* Header stuff here*/
+header {
+    background-color: #0a1840;
+    padding: 1rem 3vw;
+}
+header h1 {
+    margin: 0rem;
+    color: #f2af5c; 
+    font-size: 3.5rem;
+    font-weight:700;
+    line-height: 3rem;
+}
+header p {
+    color: #f26b1d;
+    margin: 0;
+    letter-spacing: .3px;
+    font-size: .97rem;
+}
+/*nav stuff here*/
+nav {
+    background-color: #49a695;
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 0rem 3vw 0rem 1vw;
+    letter-spacing: .5px;
+}
+nav li.active a {
+    background-color: #0a1840;
+    color: #49a695;
+}
+nav a {
+    font-size: 1.2rem;
+    display: block;
+    padding: .7rem 2vw;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#f2af5c;
+}
+/* stuff for the main */
+main {
+    padding: .5rem 3vw;
+}
+main h1 {
+    color: #0a1840;
+    margin: .5rem;
+}
+main h2 {
+    color: #f24607;
+    margin-bottom: .2rem;
+    margin-left: 3%;
+}
+main p {
+    margin: .5rem 1% .5rem 3%;
+}
+main address {
+    text-align: center;
+    padding-top: 0;
+}
+address a {
+    text-decoration: none;
+}
+main a:hover {
+    color:#49a695;   
+}
+h2 a {
+    color:#f24607;
+    margin:0;
+    padding:0;
+  
+    
+}
+h2 a:hover {
+    color:#0a1840;
+}
+main ul { 
+    list-style-type: square;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 3%;
+}
+main ol ul {
+    list-style-type: circle;
+}
+main ol {
+    margin: 2.5%;
+}
+main dl {
+    border-color: #49a695;
+    border-style: solid;
+    padding: 1rem;
+    margin-top: 0rem;
+    margin-left: 3%;
+}
+main dt {
+    font-weight: 700;
+    color:#49a695;
+}
+main dt a {
+    color:#49a695;
+}
+main dt a:hover {
+    color:#0a1840;
+}
+main dd {
+    margin-left: 2%; 
+}
+div {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    margin: .5rem 2% 0 0;
+}
+
+div img {
+    height: 15rem;
+    width: auto;
+}
+figure.wrapped {
+    width:30%;
+    margin: 0 0 0 2%;
+    float:right;
+}
+figure.wrapped img {
+    height: auto;
+    width: 100%;
+
+}
+figure.wrapped figcaption {
+    font-size: .6rem;
+    text-align: center;
+    color:#49a695;
+}
+/* footer stuff here*/
+
+footer {
+    background-color:#f2af5c;
+    color:#0a1840;
+    text-align: center;
+    padding: .2rem 3%;
+}
+footer a:hover {
+    color:#49a695;
+}
+footer a {
+    color:#0a1840;
+}

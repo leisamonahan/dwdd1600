@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>A Guide to Skiing in Utah: Survey</title>
+    <meta name="description" content="Learn how to enjoy this popular winter activity">
+<meta name="author" content="Casey Christensen">
+<link rel="stylesheet" href="skiing.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>A Guide to skiing in Utah</h1>
+    <p>Discover the beauty of Winter</p>
+</header>
+<nav>
+ <ul>
+<li><a href="about.html">About</a></li>
+<li><a href="locations.html">Locations</a></li>
+<li><a href="gear.html">Gear</a></li>
+<li><a href="weatherforecast.html">Weather Forecast</a></li>
+<li><a href="safety.html">Safety</a></li>
+<li><a href="gallery.html">Images</a></li>
+<li><a href="contactus.html">Contact Us!</a></li>
+<li class="active"><a href="survey.html">Survey</a></li>
+ </ul>
+</nav>
+<main>
+<h1>Give us your feedback</h1>
+<form method="get" class="survey" action="thankyou.html">
+    <fieldset>
+        <legend>User Information</legend>
+   <label>First Name*</label> <input type="text" name="fname" required>
+   <label>Last Name*</label> <input type="text" name="lname" required>
+   <label>Cell Number</label> <input type="tel" name="phone" required placeholder="xxx-xxx-xxxx">
+   </fieldset>
+   <fieldset>
+    <legend>Additional information</legend>
+   <label> Comments and recommendations</label>
+    <textarea name="comments"></textarea>
+    <label><input type="radio" name="residence" value="in-state">I live within Utah</label>
+    <label><input type="radio" name="residence" value="out-of-state">I live outside of Utah</label>
+    <label>If you live outside of Utah, which region do you reside?<select name="location">
+        <option value="none">Please Select</option>
+        <option value="newengland">I live in the New England area</option>
+        <option value="northwest">I live in the Pacific Northwest</option>
+        <option value="westcoast">I live on the Southwest coast</option>
+        <option value="midwest">I live in the Midwest</option>
+        <option value="south">I live in the South</option>
+        <option value="greatlakes">I live in the Great Lakes area</option>
+        <option value="southeast">I live in the Southeast</option></select></label>
+    </fieldset>
+<fieldset>
+<legend>Experience Level</legend>
+
+<label><input type="checkbox" name="beginner" value="chosen">I am a beginner</label>
+<label><input type="checkbox" name="ex2" value="chosen">I have a couple years of experience</label>
+<label><input type="checkbox" name="vex3" value="chosen">I have many years of experience</label> 
+
+   <label><input type="text" name="email">Enter your email to get updates about opening resort days this winter:</label>
+</fieldset>
+
+  
+   <input type="submit" value="subscribe">
+</form>
+</main>
+<footer>
+    <p>&copy; 2022 &bull; Casey Christensen &bull; <a href="mailto:jevewa8779@edxplus.com">Email Us</a></p>  
+</footer>
+
+</body>
+
+
+
+
+
+
+</html>

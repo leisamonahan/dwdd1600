@@ -1,0 +1,155 @@
+*{
+   margin: 0;
+   font-family: futura, Arial, Helvetica, sans-serif;
+}
+header h1{
+    text-transform: uppercase;
+}
+
+header{
+    text-align: center;
+    margin: 2rem;
+}
+#firstPar{
+    margin-top: 10px;
+}
+figure.switchPic img {
+   width: 100%;
+   height: auto;
+   max-width: 211 px;
+}
+figure.switchPic {
+   width: 30%;
+    float: right;
+    width: 0 0 0 2%;
+}
+figcaption {
+    font-size: small;
+}
+
+nav{
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+    background-color: #d4353a;
+height: 50px;
+}
+
+nav ul li{
+    padding-top: 12px;
+    display: inline-block;
+   list-style: none;
+   padding-right: 30px;
+}
+
+nav a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+/* curious if hover effect below affects lighthouse score? */
+nav a:hover{
+    color: #f58a07;
+}
+
+.active{
+    height: 38px;
+    background-color: #084887;
+    text-decoration: none;
+    color: rgb(255, 255, 255)!important;
+}
+
+main{
+    margin: 10px;
+}
+
+main a{
+    text-decoration: none;
+    color: #084887;
+    font-weight: bold;
+}
+
+#top{
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #084887;
+    color: white;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: x-large;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+p{
+    padding: 10px;
+}
+
+/* start of lots of interview styling */
+dl{
+    padding: 10px;
+}
+
+dt{
+    padding: 5px 0;
+    font-weight: bold;
+}
+dd{
+    font-style: italic;
+}
+#gallery figure{
+    padding: 10px;
+}
+
+#gallery img{
+    width: 100%;
+    height: auto;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* end of interview styling */
+.jumper{
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+address{
+    width: 220px;
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+footer{
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+    background-color: #d4353a;
+height: 40px;
+color: white;
+padding-top: 20px;
+clear: both;
+}
+
+a:hover{
+    color: #f58a07;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

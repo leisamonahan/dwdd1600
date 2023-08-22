@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Best Friend Finder: Home</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cat and Dog Adoption">
+        <meta name="author" content="Bridgette Biggers">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="finder.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--Start of header-->
+        <header>
+            <h1>Best Friend Finder</h1>
+            <p>Cat and Dog Adoption</p>
+        </header>
+
+        <!--Start of navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Meet Our Pets</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="lostandfound.html">Lost and Found</a></li>
+                <li class="current"><a href="report.html">Report a Missing Pet</a></li>
+            </ul>
+        </nav>
+
+        <!--Start of main content-->
+        <main>
+            <h1>Report a Missing Pet</h1>
+            <form method="get" class="myForm" action="thankyou.html"> 
+                
+            <fieldset>
+            <legend>Personal Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required></label>
+            <label>Email*<input type="email" name="email" required></label> 
+                
+            <label>Preferred Method of Communication</label>
+            <label><input type="checkbox" name="call" value="chosen">Call</label>
+            <label><input type="checkbox" name="text" value="chosen">Text</label>
+            <label><input type="checkbox" name="email" value="chosen">Email</label>
+                
+            <label>Where do you live?
+            <select name="where">
+            <option value="none">Please Select</option>
+            <option value="north">Northern Utah</option>
+            <option value="east">Eastern Utah</option>
+            <option value="south">Southern Utah</option>
+            <option value="west">Western Utah</option>
+            </select>
+            </label>
+            </fieldset>
+                
+                
+            <fieldset>
+            <legend>Pet Information</legend>
+            <label>Pet Name*<input type="text" name="pname" required></label> 
+                
+            <label><input type="radio" name="species" value="cat">Cat</label>
+            <label><input type="radio" name="species" value="dog">Dog</label>
+            <label><input type="radio" name="species" value="other">Other</label>
+                
+            <label>Brief Description of the Pet
+            <textarea name="description"></textarea>
+            </label>
+            </fieldset>
+                            
+                
+                
+                
+            <input type="submit" value="Send Report">
+            </form>
+        </main>
+
+        <!--Start of footer -->
+        <footer>
+            <p> &copy; 2022 &bull; Bridgette Biggers &bull; <a href="mailto:bridgette.biggers@gmail.com">Email Us</a> </p>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,239 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+        
+/* Header Stuff Here*/
+header {
+    background-color: #99D67A;
+    padding: 1rem 2vw;
+    
+}
+header h1 {
+    margin: 0;
+    color: #416EA1;
+}
+header p {
+    margin: 0;
+    color: #102b49;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav{
+    background-color: #69BAD9;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0 2vw;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2a3949; 
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;     
+}
+nav li.active a {
+    background-color: #416EA1;
+    color: #7B8BB6;
+}
+nav a:hover {
+    color:white;
+}        
+   
+
+
+
+
+/** stuff for main */
+main{
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #416EA1;
+}
+main h2 {
+    color: #416EA1;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef
+}
+main dl dt {
+    color: #7B8BB6;
+    font-weight: 700;
+        
+}
+main dl dt {
+    color: #416EA1;
+    font-size : .9rem;
+}
+main ul {
+    list-style-type :circle
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size : .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #99D67A;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024885;
+    border-radius: 5px;
+        
+        
+}
+main a {
+    color: #416EA1;
+    
+}
+main a {
+    color: #7B8BB6;
+    
+}
+
+figure.logo{
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.logo img{
+    width:100%;
+    height: auto;   
+    
+}
+figure.logo figcaption{
+    text-align: center;
+    font-size: 75rem;
+}
+
+
+
+
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font size: .8rem;
+    color: #b64e11
+}
+
+
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #416EA1;
+    padding: 1rem 0;
+    font-size: .8rem;
+        
+}
+.myform fieldset {
+    
+    border: 1px solid #002E30;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myform label {
+    margin: .5rem;
+    
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+ display: block;    
+}
+
+    
+
+.myform [type=text], .myform [type=tel], .myform select, .myform textarea {
+    border:solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.myform textarea {
+    height: 4rem;
+    
+}
+.myform :required {
+    background-color: white;
+}
+
+.myform [type=submit] {
+    background-color: #416EA1;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer a {
+    color: #416EA1;
+}
+
+
