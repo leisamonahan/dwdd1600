@@ -1,0 +1,125 @@
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/*Header Stuff*/
+header {
+    background-color: #14140F; 
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #F21F0C;
+}
+header p {
+    margin: 0;
+    color: #F21F0C;
+    letter-spacing: .5px;
+}
+
+/*nav stuff goes here */
+nav {
+    background-color: #595959;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem; 
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color:#47A603;
+    color:#595959;
+}
+nav a:hover {
+    color: #F21F0C; 
+}
+
+
+/*stuff for the main*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #F21F0C;
+}
+
+main h2 {
+    color: #F21F0C;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main {
+    background-color: #D9D9D9;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #595959;
+    color: #F2F2F2;
+}
+
+main dl dt {
+    color: #F21F0C;
+    font-weight: 700;
+}
+main dl dd {
+    color: #14140F;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type:circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #2f3133;
+    color: #F2B705;
+    padding: .5rem; 
+    width: 12.5rem;
+    border: 1px solid #47A603;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #47A603;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+
+ /*footer stuff */
+footer {
+    background-color: #2f3133;
+    text-align: center;
+    color: #F21F0C;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #F21F0C;
+}
